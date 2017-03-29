@@ -50,7 +50,6 @@ header nav ul {
 header nav ul li {
 	display: inline-block;
 	float: right;
-	/*width: 33%;*/
 }
 
 header nav ul li a {
@@ -66,11 +65,7 @@ header nav ul li a img {
 }
 
 header nav ul li a:hover img {
-	/*transform: scale(1.1) rotate(3deg);*/
 	transform: scale(1.1);
-	/*box-shadow: 5px 5px 6px black;
-	border: 1px solid grey;
-	margin-top: -100px;*/
 }
 
 /*---------------MAIN---------------*/
@@ -83,7 +78,6 @@ main section {
 }
 
 	/*---------------Home---------------*/
-
 	h3 {
 	    text-align: center;
 	    font-size: 36px;
@@ -217,7 +211,6 @@ main section {
 	#carousel img{
 		-webkit-filter: grayscale(1);
 		cursor: pointer;
-		/*transition: all .10s ease;*/
 		border: 1px solid grey;
 		width: 98%;
 	}
@@ -246,16 +239,26 @@ main section {
 	    font-weight: bold;
 	}
 
-	.info {
+	section.info {
 		display: flex;
 	    justify-content: center;
 	    flex-direction: row;
 	    flex-wrap: wrap;
 	    width: 100%;
+	    height: 75vh;
+	}
+	
+	section.info div {
+		display: inline-block;
 	}
 
 	.img-bio {
+		width: 50%;
 	    padding: 2%;	
+	}
+
+	.img-bio img {
+		width: 50%;
 	}
 
 	.bio {
@@ -265,7 +268,6 @@ main section {
 
 	.bio p {
 	    color: grey;
-	    /*padding: 2%;*/
 	    font-family: Times;
 	}
 
@@ -319,14 +321,20 @@ main section {
 	}
 
 	/*---------------Concept---------------*/
-	section.about,
+	section.about {
+		height: 68vh;
+	}
+
 	section.maps {
-		height: 100vh;
+		height: 75vh;
 	}
 
 	section.about {
 		position: relative;
-		border-bottom: 50px solid black;
+	}
+
+	div.bandeau {
+		padding: 75px 0;
 	}
 
 	section div.content {
@@ -342,7 +350,7 @@ main section {
 		float: left;
 	}
 
-	section div.content .text 	 {
+	section div.content .text {
 		line-height: 1.8;
 		width: 46%;
 		float: left;
@@ -360,36 +368,36 @@ main section {
 	
 	section.maps #maps {
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 	}
 	/*---------------Expositions---------------*/
 	.current-exb {
 	    text-align: center;
-	    padding: 40px 0 20px 0;
+	    padding-top: 40px;
+	    height: 71vh;
 	}
+
 	.next-exb {
 		max-width: 1300px; 
 	}
+
 	.details {
 	    float: right;
-	/*    width: 50%;*/
 	    text-align: center;
 	    margin-top: 10%;
 	    padding: 30px;
 	    
 	}
+
 	img .next {
 	    padding: 40px;
-	    float: left;
-	/*    width: 50%;*/
-	    
+	    float: left;  
 	}
 
 	.quote {
 	    background-color: black;
-	   /* padding: 0px 0 30px 0;*/
 	}
 
 	h2 {
@@ -398,6 +406,7 @@ main section {
 	    font-weight: bold;
 	    padding: 10px;
 	}
+
 	p {
 	    text-align: center;
 	}
