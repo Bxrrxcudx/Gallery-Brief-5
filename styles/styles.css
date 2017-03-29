@@ -101,8 +101,7 @@ main section {
 	}
 
 	.img-bio {
-	    padding: 2%;
-	    
+	    padding: 2%;	
 	}
 
 	.bio {
@@ -202,7 +201,7 @@ main section {
 	/*---------------Expositions---------------*/
 	.current-exb {
 	    text-align: center;
-	    padding: 40px;
+	    padding: 40px 0 20px 0;
 	}
 	.next-exb {
 		max-width: 1300px; 
@@ -221,10 +220,12 @@ main section {
 	/*    width: 50%;*/
 	    
 	}
+
 	.quote {
 	    background-color: black;
-	    padding: 50px;
+	   /* padding: 0px 0 30px 0;*/
 	}
+
 	h2 {
 	    text-align: center;
 	    font-size: 24px;
