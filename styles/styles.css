@@ -226,6 +226,13 @@ main section {
 	.modal-body{
 		padding:0px;
 	}
+
+	main .bandeau {
+		background: #000;
+		padding: 40px 0;
+		margin: 60px 0;
+	}
+
 	/*---------------Concept---------------*/
 	section.about {
 		position: relative;
@@ -255,12 +262,12 @@ main section {
 	section.maps {
 		position: relative;
 	}
-
+	
 	#maps h2 {
 		text-align: center;
 		padding-bottom: 20px;
 	}
-
+	
 	section.maps #maps {
 		position: absolute;
 		top: 50%;
