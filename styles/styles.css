@@ -163,7 +163,7 @@ main section {
 
 	/*---------------List Of Artists---------------*/
 	.work {
-		height: 50vh;
+		height: 57vh;
 	}
 
 	.container{
@@ -230,7 +230,7 @@ main section {
 		}
 	}
 	/*---------------Artist---------------*/
-	h1{
+	h1 {
 	    font-family: Avenir Next;
 		font-size: 50px;
 		text-align: center;
