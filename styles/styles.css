@@ -97,7 +97,7 @@ main section {
 		float: left;
 	}
 
-	section div.content .text {
+	section div.content .text 	 {
 		line-height: 1.8;
 		width: 46%;
 		float: left;
