@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*---------------Classes Générales---------------*/
+
+.cf:before,
+.cf:after {
+	display: table;
+	content: " ";
+}
+.cf:after {
+	clear: both;
+}
+
+/*---------------Classes JavaScript---------------*/
+
+
+/*---------------HEADER---------------*/
+
+header {
+	width: 100%;
+	padding: 10px;
+	background-color: black;
+}
+
+/*header .logo {
+	width: 25%;
+}*/
+
+header nav {
+	width: 100%;
+}
+
+header nav ul {
+	list-style: none;
+	width: 100%
+}
+
+header nav ul li {
+	display: inline-block;
+	width: 24%;
+
+}
+
+header nav ul li a {
+
+} 
+
+header nav ul li a img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100px;
+	width: 100%;
+	transition: .3s ease-in-out;
+}
+
+header nav ul li a:hover img {
+	/*transform: scale(1.1) rotate(3deg);*/
+	transform: scale(1.1);
+	/*box-shadow: 5px 5px 6px black;
+	border: 1px solid grey;*/
+	margin-top: -100px;
+}
+
+/*---------------MAIN---------------*/
+
+
+body {
+
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+h1{
+    font-family: Avenir Next;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  padding-bottom: 3%;
+    font-weight: bold;
+}
+
+.info {
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img-bio {
+    padding: 2%;
+    
+}
+.bio {
+    width: 40%;
+    padding: 3%;
+}
+.bio p {
+    color: grey;
+/*    padding: 2%;*/
+    font-family: Times;
+}
+.quote {
+	background-color: black;
+}
+.quote p { 
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	padding: 70px;
+    font-family: Times;
+ }
+/*-----------__GALLERY-----------------*/
+/*---------------Gallery---------------*/
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+    
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+.card{
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+/*---------------FOOTER---------------*/
+
+footer {
+background-color: black;
+padding: 100px;
+}
+footer p {
+	color: white;
+    text-align: center;
+    
+}
+/*---------------BREAKPOINTS---------------*/
+
