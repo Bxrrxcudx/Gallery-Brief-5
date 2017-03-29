@@ -19,7 +19,6 @@
 body {
 	background: url() top center no-repeat;
 	background-size: cover;
-	/*max-width: 1440px;*/
 	width: 100%;
 	margin: 0 auto;
 }
@@ -32,10 +31,12 @@ header {
 }
 
 header .logo {
-	background: red;
+	background: white;
 	display: inline-block;
 	width: 25%;
 }
+
+
 
 header nav {
 	display: inline-block;
