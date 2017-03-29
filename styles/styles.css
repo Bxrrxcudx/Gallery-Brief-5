@@ -79,35 +79,56 @@ main section {
 }
 
 	/*---------------Home---------------*/
+	h1 {
+	    font-family: 'Lato';
+		text-align: center;
+		font-size: 50px;
+	    font-weight: bold;
+		color: black;
+		padding-bottom: 3%;
+	}
+
+	h2 {
+		font-family: 'Lato';
+	    text-align: center;
+	    font-size: 24px;
+	    font-weight: bold;
+	    padding: 10px;
+	}
+
 	h3 {
+	    font-family: 'Lato';
 	    text-align: center;
 	    font-size: 36px;
-	    font-family: 'Avenir Next';
 	    padding: 1%;
 	    position: relative;
 	}
 
 	h4 {
+	    font-family: 'Lato';
 	    text-align: center;
 	    font-size: 24px;
-	    font-family: 'Avenir Next';
 	    padding: 1%;
 	    position: relative;
 	}
 
 	h5 {
+	    font-family: 'Lato';
 	    text-align: center;
-	    padding: 2%;
 	    font-size: 24px;
-	    font-family: 'Avenir Next';
+	    padding: 2%;
 	}
 
 	h6 {
-	    width: 100%;    
-	    border: 2px solid black;
+	    font-family: 'Lato';
 	    text-align: center;
 	    font-size: 18px;
-	    font-family: 'Avenir Next';
+	    width: 100%;    
+	    border: 2px solid black;
+	}
+
+	p {
+		font-family: 'Lato';
 	}
 
 	section.head {
@@ -232,15 +253,6 @@ main section {
 		}
 	}
 	/*---------------Artist---------------*/
-	h1 {
-	    font-family: Avenir Next;
-		font-size: 50px;
-		text-align: center;
-		color: black;
-		padding-bottom: 3%;
-	    font-weight: bold;
-	}
-
 	section.info {
 		display: flex;
 	    justify-content: center;
@@ -270,7 +282,7 @@ main section {
 
 	.bio p {
 	    color: grey;
-	    font-family: Times;
+	    font-family: 'Lato'
 	}
 
 	.quote {
@@ -282,7 +294,7 @@ main section {
 		text-align: center;
 		font-size: 14px;
 		padding: 70px;
-	    font-family: Times;
+	    font-family: 'Lato'
 	}
 
 	#gallery{
@@ -400,13 +412,6 @@ main section {
 
 	.quote {
 	    background-color: black;
-	}
-
-	h2 {
-	    text-align: center;
-	    font-size: 24px;
-	    font-weight: bold;
-	    padding: 10px;
 	}
 
 	p {
