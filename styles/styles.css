@@ -82,6 +82,76 @@ main {
 main section {
 	height: 100vh;
 }
+	/*---------------List Of Artists---------------*/
+	.work {
+		height: 50vh;
+	}
+
+	.container{
+		margin: 4% auto;
+		width: 210px;
+		height: 140px;
+		position: relative;
+		perspective: 1000px;
+	}
+
+	.container h2 {
+		padding: 10px 0;
+	}
+
+	#carousel{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		transform-style: preserve-3d;
+		animation: rotation 100s infinite linear;
+	}
+
+	#carousel:hover{
+		animation-play-state: paused;
+	}
+
+	#carousel figure{
+		display: block;
+		position: absolute;
+		width: 100%;	
+		left: 10px;
+		top: 10px;
+		overflow: hidden;
+	}
+	#carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(350px);}
+	#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(350px);}
+	#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(350px);}
+	#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(350px);}
+	#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(350px);}
+	#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(350px);}
+	#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(350px);}
+	#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(350px);}
+	#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(350px);}
+
+	#carousel img{
+		-webkit-filter: grayscale(1);
+		cursor: pointer;
+		/*transition: all .10s ease;*/
+		border: 1px solid grey;
+		width: 98%;
+	}
+
+	#carousel img:hover{
+		-webkit-filter: grayscale(0);
+		transform: scale(1.2,1.2);
+		transition: .5s ease;
+		width: 110%;
+	}
+
+	@keyframes rotation{
+		from{
+			transform: rotateY(0deg);
+		}
+		to{
+			transform: rotateY(360deg);
+		}
+	}
 	/*---------------Artist---------------*/
 	h1{
 	    font-family: Avenir Next;
@@ -242,9 +312,9 @@ footer {
 	width: 100%;
     padding: 50px 0;
 }
+
 footer p {
 	color: white;
     text-align: center;
 }	
 
-/*---------------BREAKPOINTS---------------*/
