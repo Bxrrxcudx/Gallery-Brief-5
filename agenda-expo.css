@@ -112,119 +112,49 @@ body {
 
 }
 
-main{
-    max-width: 1000px;
-    margin: 0 auto;
+.current-exb {
+    text-align: center;
+    padding: 40px;
+}
+.next-exb {
+   max-width: 1300px; 
+}
+.details {
+    float: right;
+/*    width: 50%;*/
+    text-align: center;
+    margin-top: 10%;
+    padding: 30px;
     
 }
-h1{
-    font-family: Avenir Next;
-  font-size: 50px;
-  text-align: center;
-  color: black;
-  padding-bottom: 3%;
-    font-weight: bold;
-}
-
-.info {
-	display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.img-bio {
-    padding: 2%;
+img .next {
+    padding: 40px;
+    float: left;
+/*    width: 50%;*/
     
-}
-.bio {
-    width: 40%;
-    padding: 3%;
-}
-.bio p {
-    color: grey;
-/*    padding: 2%;*/
-    font-family: Times;
 }
 .quote {
-	background-color: black;
+    background-color: black;
+    padding: 50px;
 }
-.quote p { 
-	color: white;
-	text-align: center;
-	font-size: 14px;
-	padding: 70px;
-    font-family: Times;
- }
-/*-----------__GALLERY-----------------*/
-/*---------------Gallery---------------*/
-#gallery{
-  -webkit-column-count:4;
-  -moz-column-count:4;
-  column-count:4;
-  
-  -webkit-column-gap:20px;
-  -moz-column-gap:20px;
-  column-gap:20px;
-    
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 100px;
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
 }
-@media (max-width:1200px){
-  #gallery{
-  -webkit-column-count:3;
-  -moz-column-count:3;
-  column-count:3;
-    
-  -webkit-column-gap:20px;
-  -moz-column-gap:20px;
-  column-gap:20px;
-}
-}
-@media (max-width:800px){
-  #gallery{
-  -webkit-column-count:2;
-  -moz-column-count:2;
-  column-count:2;
-    
-  -webkit-column-gap:20px;
-  -moz-column-gap:20px;
-  column-gap:20px;
-}
-}
-@media (max-width:600px){
-  #gallery{
-  -webkit-column-count:1;
-  -moz-column-count:1;
-  column-count:1;
-}  
-}
-.card{
-  width:100%;
-  height:auto;
-  margin: 4% auto;
-  box-shadow:-3px 5px 15px #000;
-  cursor: pointer;
-}
-.modal-img,.model-vid{
-  width:100%;
-  height:auto;
-}
-.modal-body{
-  padding:0px;
+p {
+    text-align: center;
 }
 /*---------------FOOTER---------------*/
 
 footer {
 background-color: black;
-padding: 100px;
+padding: 100px 0	;
 }
 footer p {
 	color: white;
-  text-align: center;
-    
+    text-align: center;
 }
 /*---------------BREAKPOINTS---------------*/
 
