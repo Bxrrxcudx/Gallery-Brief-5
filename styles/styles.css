@@ -269,22 +269,26 @@ main section {
 	}
 
 	.img-bio {
-		width: 50%;
-	    padding: 2%;	
+		width: 34%;
+	    padding-top: 2%;	
 	}
 
 	.img-bio img {
-		width: 50%;
+		width: 90%;
 	}
 
 	.bio {
 	    width: 40%;
-	    padding: 3%;
+	   /* padding-right: 3%;*/
+	}
+
+	div.bio h1 {
+		margin-top: 2%;
 	}
 
 	.bio p {
 	    color: grey;
-	    font-family: 'Lato'
+	    font-family: 'Lato';
 	}
 
 	.quote {
@@ -296,7 +300,7 @@ main section {
 		text-align: center;
 		font-size: 14px;
 		padding: 70px;
-	    font-family: 'Lato'
+	    font-family: 'Lato';
 	}
 
 	#gallery{
@@ -381,6 +385,11 @@ main section {
 		text-align: center;
 		padding-bottom: 20px;
 	}
+
+	#maps h2 span {
+		display: block;
+		font-size: .7em;
+	}
 	
 	section.maps #maps {
 		position: absolute;
@@ -400,7 +409,9 @@ main section {
 	}
 
 	.next-exb {
-		max-width: 1300px; 
+		padding: 30px 0;
+		margin: 0 auto;
+		max-width: 1100px;
 	}
 
 	.details {
