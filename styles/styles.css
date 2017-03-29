@@ -82,10 +82,86 @@ main {
 main section {
 	height: 100vh;
 }
-	/*---------------Article---------------*/
+	/*---------------Artist---------------*/
+	h1{
+	    font-family: Avenir Next;
+		font-size: 50px;
+		text-align: center;
+		color: black;
+		padding-bottom: 3%;
+	    font-weight: bold;
+	}
+
+	.info {
+		display: flex;
+	    justify-content: center;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    width: 100%;
+	}
+
+	.img-bio {
+	    padding: 2%;
+	    
+	}
+
+	.bio {
+	    width: 40%;
+	    padding: 3%;
+	}
+
+	.bio p {
+	    color: grey;
+	    /*padding: 2%;*/
+	    font-family: Times;
+	}
+
+	.quote {
+		background-color: black;
+	}
+
+	.quote p { 
+		color: white;
+		text-align: center;
+		font-size: 14px;
+		padding: 70px;
+	    font-family: Times;
+	}
+
+	#gallery{
+		-webkit-column-count:4;
+		-moz-column-count:4;
+		column-count:4;
+
+		-webkit-column-gap:20px;
+		-moz-column-gap:20px;
+		column-gap:20px;
+    
+	    max-width: 900px;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	.card{
+		width:100%;
+		height:auto;
+		margin: 4% auto;
+		box-shadow:-3px 5px 15px #000;
+		cursor: pointer;
+	}
+
+	.modal-img,.model-vid{
+		width:100%;
+		height:auto;
+	}
+
+	.modal-body{
+		padding:0px;
+	}
 	/*---------------Concept---------------*/
 	section.about {
 		position: relative;
+		border-bottom: 50px solid black;
 	}
 
 	section div.content {
@@ -124,6 +200,40 @@ main section {
 		transform: translate(-50%,-50%);
 	}
 	/*---------------Expositions---------------*/
+	.current-exb {
+	    text-align: center;
+	    padding: 40px;
+	}
+	.next-exb {
+		max-width: 1300px; 
+	}
+	.details {
+	    float: right;
+	/*    width: 50%;*/
+	    text-align: center;
+	    margin-top: 10%;
+	    padding: 30px;
+	    
+	}
+	img .next {
+	    padding: 40px;
+	    float: left;
+	/*    width: 50%;*/
+	    
+	}
+	.quote {
+	    background-color: black;
+	    padding: 50px;
+	}
+	h2 {
+	    text-align: center;
+	    font-size: 24px;
+	    font-weight: bold;
+	    padding: 10px;
+	}
+	p {
+	    text-align: center;
+	}
 /*---------------FOOTER---------------*/
 
 footer {

@@ -102,15 +102,9 @@ header nav ul li a:hover img {
 	transform: scale(1.1);
 	/*box-shadow: 5px 5px 6px black;
 	border: 1px solid grey;*/
-	margin-top: -100px;
 }
 
 /*---------------MAIN---------------*/
-
-
-body {
-
-}
 
 .current-exb {
     text-align: center;
