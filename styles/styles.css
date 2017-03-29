@@ -70,6 +70,7 @@ header nav ul li a:hover img {
 }
 
 /*---------------MAIN---------------*/
+
 main {
 	
 }
@@ -77,11 +78,54 @@ main {
 main section {
 	height: 100vh;
 }
+	/*---------------Article---------------*/
+	/*---------------Concept---------------*/
+	section.about {
+		position: relative;
+	}
+
+	section div.content {
+		position: absolute;
+		width: 65%;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, 50%);
+	}
+
+	section div.content img {
+		width: 50%;
+		float: left;
+	}
+
+	section div.content .text {
+		line-height: 1.8;
+		width: 46%;
+		float: left;
+		margin-left: 4%;
+	}
+
+	section.maps {
+		position: relative;
+	}
+
+	#maps h2 {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	section.maps #maps {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	/*---------------Expositions---------------*/
 /*---------------FOOTER---------------*/
 
 footer {
 	background-color: black;
 	width: 100%;
+    padding: 50px 0;
 }
 footer p {
 	color: white;
